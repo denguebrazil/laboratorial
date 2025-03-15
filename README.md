@@ -18,8 +18,8 @@ Este projeto consiste em um script Python para processar e analisar dados labora
 - Gerenciador de Ambiente Laboratorial (GAL)
 
 #### Instalação
-Clone este repositório: git clone https://github.com/seu-usuario/vigilab-processor.git
-Instale as dependências necessárias: pip install pandas openpyxl
+- Clone este repositório: git clone https://github.com/seu-usuario/vigilab-processor.git
+- Instale as dependências necessárias: pip install pandas openpyxl
 
 #### Baixar dados GAL
 - Acessar o sistema GAL do seu estado
@@ -31,9 +31,9 @@ Instale as dependências necessárias: pip install pandas openpyxl
 - Converter para data.xlsx
 
 #### Como usar
-Coloque seu arquivo de dados com nome 'data.xlsx' na mesma pasta do script
-Execute o script: python vigilab_processor.py
-O resultado será salvo em um arquivo Excel chamado 'TotalVigiLabUrbanas_2025.xlsx'
+- Coloque seu arquivo de dados com nome 'data.xlsx' na mesma pasta do script
+- Execute o script: python vigilab_processor.py
+- O resultado será salvo em um arquivo Excel chamado 'TotalVigiLabUrbanas_2025.xlsx'
 
 #### Estrutura do arquivo de saída
 O arquivo Excel gerado contém as seguintes planilhas:
