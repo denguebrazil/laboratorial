@@ -2,7 +2,7 @@
 
 #### Descrição
 
-Este projeto consiste em um script Python para processar e analisar dados laboratoriais de arboviroses (Dengue, Zika e Chikungunya) do sistema VigiLab para o ano de 2025. O programa processa os dados, calcula estatísticas importantes e gera relatórios detalhados por município e período.
+Este projeto consiste em um script Python para processar e analisar dados laboratoriais de arboviroses urbanas (Dengue, Zika e Chikungunya). O programa processa os dados, calcula estatísticas importantes e gera relatórios detalhados por município e período.
 
 #### Funcionalidades
 - Processamento de dados por períodos de 7 dias
@@ -15,10 +15,20 @@ Este projeto consiste em um script Python para processar e analisar dados labora
 - Python 3.12.9
 - Biblioteca Pandas
 - Arquivo de dados no formato Excel (.xlsx)
+- Gerenciador de Ambiente Laboratorial (GAL)
 
 #### Instalação
 Clone este repositório: git clone https://github.com/seu-usuario/vigilab-processor.git
 Instale as dependências necessárias: pip install pandas openpyxl
+
+#### Baixar dados GAL
+- Acessar o sistema GAL do seu estado
+- Clicar na pasta Biologia Médica
+- Pasta Relatórios
+- Epidemiológicos
+- Relatórios Epidemiológicos por agravo - Dados Clínicos
+- Baixar data.csv
+- Converter para data.xlsx
 
 #### Como usar
 Coloque seu arquivo de dados com nome 'data.xlsx' na mesma pasta do script
