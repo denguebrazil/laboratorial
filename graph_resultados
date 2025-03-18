@@ -1,0 +1,33 @@
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Ler o arquivo Excel gerado
+df_totais = pd.read_excel('Total_VigiLab_Urbanas_2025.xlsx', sheet_name='DENGUE', index_col=0)
+
+# Extrair os totais das colunas desejadas
+colunas = ['Inconclusivas', 'Indeterminadas', 'Não Reagentes', 'Reagentes', 'Não Detectáveis', 'Detectáveis']
+totais = df_totais.loc['Total', colunas]
+
+# Configurações de estilo
+custom_params = {"axes.spines.right": False, "axes.spines.top": False}
+sns.set_theme(style="ticks", rc=custom_params)
+plt.figure(figsize=(20, 6))
+
+# Gráfico de barras
+ax = plt.subplot(1, 2, 1)
+bars = sns.barplot(x=totais.index, y=totais.values, hue=totais.index, legend=False, palette="rocket")
+
+# Adicionar valores em cima das barras
+for i, v in enumerate(totais.values):
+    ax.text(i, v, str(int(v)), ha='center', va='bottom')
+
+# Ajustar o limite do eixo y automaticamente
+plt.ylim(0, max(totais.values) * 1.1)  # Adiciona 10% de espaço acima do valor máximo
+
+plt.xticks(rotation= 360, ha='center')
+plt.ylabel('Total Positivas')
+plt.xlabel('Resultados de Exames')
+
+# Ajustar layout
+plt.tight_layout()
+plt.show()
