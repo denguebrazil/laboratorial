@@ -65,8 +65,6 @@ O arquivo Excel gerado contém as seguintes planilhas:
 ---
 Este projeto foi desenvolvido por Pedro Araújo
 
-Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-Contato
 Para mais informações ou dúvidas, abra uma issue no repositório ou envie um e-mail para pedro.arthur@saude.gov.br
