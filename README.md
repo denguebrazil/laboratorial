@@ -1,4 +1,4 @@
-### Processador de Dados VigiLab 2025
+### Algoritmo de processamento de resultados laboratoriais - Arboviroses
 
 #### Descrição
 
