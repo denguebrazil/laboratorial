@@ -58,7 +58,11 @@ O arquivo Excel gerado contém as seguintes planilhas:
 
 <img width="932" alt="Captura de Tela 2025-02-28 às 12 11 09" src="https://github.com/user-attachments/assets/3ae61143-2510-475c-b54d-72111aa039c6" />
 
+#### Gráfico 
 
+![image](https://github.com/user-attachments/assets/5f29adba-da82-4a87-bebc-1ca89f2a83a9)
+
+---
 Este projeto foi desenvolvido por Pedro Araújo
 
 Licença
