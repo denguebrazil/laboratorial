@@ -20,7 +20,7 @@ Este projeto consiste em um script Python para processar e analisar dados labora
 - Gerenciador de Ambiente Laboratorial (GAL)
 
 #### Instalação
-- Clone este repositório: git clone gh repo clone denguebrazil/laboratorial
+- Clone este repositório: [git clone gh repo clone denguebrazil/laboratorial](https://github.com/denguebrazil/laboratorial.git)
 - Instale as dependências necessárias: pip install pandas openpyxl
 
 #### Baixar dados GAL
