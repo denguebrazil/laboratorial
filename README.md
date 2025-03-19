@@ -14,6 +14,8 @@ Este projeto consiste em um script Python para processar e analisar dados labora
 #### Pré-requisitos
 - Python 3.12.9
 - Biblioteca Pandas
+- Matplotlib
+- Seaborn
 - Arquivo de dados no formato Excel (.xlsx)
 - Gerenciador de Ambiente Laboratorial (GAL)
 
@@ -55,6 +57,12 @@ O arquivo Excel gerado contém as seguintes planilhas:
 - Total de Positivos
 - Positividade (%)
 - Contribuição
+
+#### Visualizações Geradas
+- Gráficos de barras por categoria de resultado
+- Distribuição percentual dos resultados
+- Análise temporal de casos
+- Indicadores por município
 
 <img width="932" alt="Captura de Tela 2025-02-28 às 12 11 09" src="https://github.com/user-attachments/assets/3ae61143-2510-475c-b54d-72111aa039c6" />
 
