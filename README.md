@@ -20,7 +20,7 @@ Este projeto consiste em um script Python para processar e analisar dados labora
 - Gerenciador de Ambiente Laboratorial (GAL)
 
 #### Instalação
-- Clone este repositório: git clone https://github.com/seu-usuario/vigilab-processor.git
+- Clone este repositório: git clone gh repo clone denguebrazil/laboratorial
 - Instale as dependências necessárias: pip install pandas openpyxl
 
 #### Baixar dados GAL
